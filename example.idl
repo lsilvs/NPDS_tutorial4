@@ -1,0 +1,6 @@
+// IDL
+module Example { 
+	interface Modes {
+		long operation(in string inArg, out long outArg, inout long inoutArg); 
+	};
+};
